@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Tech Layout</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        .header {
+            width: 100vw;
+            height: 70px;
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            border-bottom: 3px solid #444;
+        }
+        .mainpart {
+            margin: 20px;
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+        .aside {
+            width: 300px;
+            background-color: #444;
+            color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .article {
+            flex-grow: 1;
+            display: flex;
+            gap: 20px;
+            justify-content: space-between;
+        }
+        .image {
+            flex: 1;
+            height: 300px;
+            background-color: #333;
+            border-radius: 8px;
+            background-size: cover;
+            background-position: center;
+        }
+        .footer {
+            width: 100vw;
+            height: 70px;
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            border-top: 3px solid #444;
+            margin-top: 20px;
+        }
+        .image1 {
+            background-image: url('https://images.unsplash.com/photo-1506748686214e9df14f2f7b0f7365aa6fbc8e300bb2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwyMDY3NTh8MHwxfGFsbHwxfHx8fHx8fHwxNjcwMzU0MzU4&ixlib=rb-1.2.1&q=80&w=1080');
+        }
+        .image2 {
+            background-image: url('https://images.unsplash.com/photo-1562880383-3d2f69a2275c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwyMDY3NTh8MHwxfGFsbHwxfHx8fHx8fHwxNjcwMzU0NjQ2&ixlib=rb-1.2.1&q=80&w=1080');
+        }
+        .image3 {
+            background-image: url('https://images.unsplash.com/photo-1532635295-c4a18efb7359?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwyMDY3NTh8MHwxfGFsbHwxfHx8fHx8fHwxNjcwMzU0NjE0&ixlib=rb-1.2.1&q=80&w=1080');
+        }
+    </style>
+</head>
+<body>
+    <div class="header">TECHNOLOGY HUB</div>
+    <div class="mainpart">
+        <div class="aside">
+            <h2>Tech Innovations</h2>
+            <p>Explore the latest advancements in technology that are transforming our world. From groundbreaking innovations in AI to the newest gadgets and software, stay updated with what's shaping the future of tech. Dive into articles, reviews, and tutorials to keep yourself at the forefront of the digital revolution.</p>
+        </div>
+        <div class="article">
+            <div class="image image1"></div>
+            <div class="image image2"></div>
+            <div class="image image3"></div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Thank you for visiting Tech Hub! Stay tuned for more updates and innovations. Embrace the future with technology!</p>
+    </div>
+</body>
+</html>
